@@ -8,6 +8,7 @@ import random
 
 # The quiz data. Keys are states and values are their capitals.
 # Add quiz data with states and capitals
+# TODO: Reformat for functionality
 capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 'Arkansas': 'Little Rock', 'California': 'Sacramento', 'Colorado': 'Denver',
 'Connecticut': 'Hartford', 'Delaware': 'Dover', 'Florida': 'Tallahassee',
