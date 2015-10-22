@@ -4,7 +4,8 @@
 
 # TODO: Check for syntax errors.
 
-import zipfile, os
+import zipfile
+import os
 
 
 def backupToZip(folder):
