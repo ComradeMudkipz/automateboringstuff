@@ -2,7 +2,9 @@
 # downloadXkcd.py - Downloads every single XKCD comic.
 
 
-import requests, os, bs4
+import requests
+import os
+import bs4
 
 
 url = 'http://xkcd.com'             # starting url
