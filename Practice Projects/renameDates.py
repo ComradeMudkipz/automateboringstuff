@@ -3,7 +3,9 @@
 # to European DD-MM-YYYY
 
 
-import shutil, os, re
+import shutil
+import os
+import re
 
 
 # Create a regex that matches files with the American date format.
