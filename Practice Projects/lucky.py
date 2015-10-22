@@ -2,7 +2,10 @@
 # lucky.py - Opens several Google search results.
 
 
-import requests, sys, webbrowser, bs4
+import requests
+import sys
+import webbrowser
+import bs4
 
 
 print('Googling...') # display text while downloading the Google page
