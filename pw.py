@@ -1,10 +1,13 @@
 #! /usr/bin/python3
 # pw.py - An insecure locker program.
 
+
+import sys, pyperclip
+
+
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
              'blog': 'VmALvQyKAxiVH5G8v0liflMLZ3sdt',
              'luggage': '12345'}
-import sys, pyperclip
 if len(sys.argv) < 2:
     print('Usage: python pw.py [account] - copy account password')
     sys.exit()
