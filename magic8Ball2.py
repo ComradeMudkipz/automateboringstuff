@@ -1,5 +1,6 @@
 import random
 
+
 messages = ['It is certain',
     'It is decidedly so',
     'Yes definitely',
