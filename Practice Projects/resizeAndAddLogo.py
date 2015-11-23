@@ -1,6 +1,7 @@
 #! /usr/bin/python
 # resizeAndAddLogo.py - Resizes all images in current working directory to fit
 # in a 300x300 square, and adds catlogo.png to the lower-right corner.
+# TODO: Address FileNotFoundError 'withLogo/zophie.png'
 
 import os
 from PIL import Image
