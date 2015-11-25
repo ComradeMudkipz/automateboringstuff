@@ -12,7 +12,7 @@ if len(sys.argv) > 1:
     # Get address from command line.
     address = ' '.join(sys.argv[1:])
 else:
-    # TODO: Get address from clipboard.
+    # Get address from clipboard.
     address = pyperclip.paste()
 
 
