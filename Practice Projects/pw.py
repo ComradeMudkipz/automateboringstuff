@@ -2,7 +2,8 @@
 # pw.py - An insecure locker program.
 
 
-import sys, pyperclip
+import sys
+import pyperclip
 
 
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
