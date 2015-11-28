@@ -1,5 +1,6 @@
 #! /usr/bin/python
 # countdown.py - A simple countdown script.
+# BUG: print statement not executing
 
 import time
 import subprocess
