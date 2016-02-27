@@ -2,8 +2,6 @@
 # backupToZip.py - Copies an entire folder and its contents into
 # a ZIP file whose filename increments.
 
-# TODO: Check for syntax errors.
-
 import zipfile
 import os
 
@@ -34,7 +32,7 @@ def backupToZip(folder):
         # Add all the files in this folder to the ZIP file.
         for filename in filenames:
             newBase = os.path.basename(folder) + '_'
-            if filename.startswith(newBase) and filename.endswith('.zip')
+            if filename.startswith(newBase) and filename.endswith('.zip'):
                 continue    # don't backup the backup ZIP files
             backupZip.write(os.path.join(foldername, filename))
     backupZip.close()
